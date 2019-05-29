@@ -1,9 +1,14 @@
 import React, { Component } from 'react'
 import HelloWorld from './components/HelloWorld'
+import Weather from './components/Weather'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return
+    ;<div>
+      <HelloWorld />
+      <Weather />
+    </div>
   }
 }
 
